@@ -15,7 +15,7 @@ To run:
 >npm run start 
 
 This DAPP lets anyone add their digital art to IPFS and then put it on auction. Once sold, it is tokenized in ERC721 token ``$ART`` making this platform a censorship resistant auction marketplace for art. 
-The auction takes place where the seller can start it with 
+The auction takes place where the seller can start it gitwith 
 1) ``price``: The minimum price or starting price of the auction 
 2) ``_bidincrement``: The incremental value is the fixed constant increment that happens to the value. It prevents bots from bidding with a small amount as well as incentivizes the bidder with the best deal.
 3) ``tokenURI``: It is the IPFS hash(CID) generated after uploading files to IPFS
